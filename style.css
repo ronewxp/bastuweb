@@ -1,0 +1,116 @@
+body{
+    overflow-x: hidden;
+}
+.row{
+    row-gap: 24px;
+}
+.container{
+    max-width: 1164px;
+}
+.fa {
+font-size: 20px;
+width: 40px;
+height: 40px;
+text-align: center;
+text-decoration: none;
+margin: 5px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.fa:hover {
+opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+
+.fa-pinterest {
+background: #cb2027;
+color: white;
+}
+
+header{
+    min-height: 60px;
+    background: #001032;
+    padding: 10px 0px;
+}
+header .logo img{
+    max-width: 200px;
+    max-height: 80px;
+}
+.slowgan-section{
+    width: max-content;
+    margin-top: -30px;
+}
+.card,.card-body,.images{
+    border-radius: 15px;
+}
+.image-section .image-card .card-body{
+    overflow: hidden;   
+}
+.image-section .image-card .card-body .images{
+    transition: all 0.5s;
+}
+.image-section .image-card .card-body:hover .images{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+.image-section .image-card .images{
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+    min-height: 275px;
+}
+.image-section .image-card .action-class::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: ' ';
+    background: #0000001f;
+    border-radius: 15px;
+} 
+.image-section .image-card:nth-child(1) .action-class::after{
+    background: #000000cc;
+}
+.image-section .image-card .overlay-top{
+    z-index: 99;
+}
+.image-section .image-card .action-class{
+    border: 0;
+}
+footer{
+    background: #001032;
+}
+@media (max-width: 768px){
+    /* .image-section .image-card .images{
+        min-height: 30vh;
+        height: auto;
+    } */
+}

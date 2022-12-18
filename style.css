@@ -7,6 +7,12 @@ body{
 .container{
     max-width: 1164px;
 }
+.text-skyBlue{
+    color: deepskyblue;
+}
+.text-success-light{
+    color: #20cd00;
+}
 .fa {
 font-size: 20px;
 width: 40px;
@@ -70,6 +76,12 @@ header .logo img{
 .card,.card-body,.images{
     border-radius: 15px;
 }
+.image-section{
+    min-height: 70.3vh;
+}
+.image-section a,.image-section h1,.image-section h2,.image-section h3,.image-section h4,.image-section h5,.image-section h6{
+    text-transform: uppercase;
+}
 .image-section .image-card .card-body{
     overflow: hidden;   
 }
@@ -97,7 +109,7 @@ header .logo img{
     border-radius: 15px;
 } 
 .image-section .image-card:nth-child(1) .action-class::after{
-    background: #000000cc;
+    background: #00000021;
 }
 .image-section .image-card .overlay-top{
     z-index: 99;
